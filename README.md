@@ -64,10 +64,13 @@ PokerDiceApplication.java
 http://localhost:8080
 ---
 ## 📂 Key Classes
+
 **PokerDiceController**
 Handles REST API endpoints.
+
 **PokerDiceService**
 Contains core business logic and combination evaluation
+
 **DiceResult (DTO)**
 Transfers dice values and combination results to frontend.
 ---
