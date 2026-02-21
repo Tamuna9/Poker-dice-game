@@ -1,0 +1,176 @@
+   body {
+             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+             text-align: center;
+             background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+             padding: 40px;
+             margin: 0;
+             color: #fff;
+             display: flex;
+             flex-direction: column;
+             align-items: center;
+             justify-content: center;
+             height: 100vh;
+             overflow: hidden;
+         }
+         .game-wrapper {
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         gap: 40px;
+         width: 90%;
+         }
+         .player {
+          display: flex;
+         flex-direction: column;
+        align-items: center;
+        }
+
+        .avatar {
+         width: 100px;
+         height: 100px;
+         border-radius: 50%;
+         margin-bottom: 10px;
+         border: 3px solid #fff;
+         }
+
+          h1 {
+          font-size: 3em;
+          margin-bottom: 10px;
+          text-shadow: 2px 2px #000;
+                          }
+
+         .dice-container {
+          display: flex;
+          gap: 15px;
+          margin-bottom: 30px;
+          flex-wrap: wrap;
+         justify-content: center;
+
+                 }
+         .die {
+             color: #000;
+             font-size: 2em;
+             font-weight: bold;
+             box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+             font-size: 48px;
+             padding: 20px;
+             width: 80px;
+             height: 80px;
+             background: white;
+             border-radius: 10px;
+             box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             animation: roll 0.4s ease;
+         }
+         .die img{
+         display: block;
+         width: 100%;
+         height: 100%;
+         }
+         .die.selected {
+         border: 3px solid #00c6ff;
+         transform: scale(1.1);
+         }
+
+          .combination {
+          background-color: rgba(0, 0, 0, 0.4);
+          padding: 10px 20px;
+          border-radius: 10px;
+          font-size: 1.5em;
+          margin-bottom: 20px;
+          box-shadow: 0 0 10px rgba(255,255,255,0.2);
+
+                           }
+
+         @keyframes roll {
+             0% { transform: rotate(0deg) scale(1); }
+             50% { transform: rotate(360deg) scale(1.2); }
+             100% { transform: rotate(720deg) scale(1); }
+         }
+         .roll-button {
+             padding: 10px 25px;
+             font-size: 16px;
+             border: none;
+             color: white;
+             cursor: pointer;
+             background: linear-gradient(90deg, #00c6ff, #0072ff);
+             border-radius: 30px;
+             color: #fff;
+              box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+              ransition: all 0.3s ease;
+         }
+         .roll-button:hover {
+         transform: scale(1.05);
+         box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+         background: linear-gradient(90deg, #0072ff, #00c6ff);
+          }
+
+         .combination {
+             font-size: 24px;
+             margin-bottom: 20px;
+             color: #333;
+         }
+
+         @keyframes pop {
+
+         0% {
+         transform: scale(0.6);
+         opacity: 0;
+                     }
+         100% {
+         transform: scale(1);
+         opacity: 1;
+               }
+
+
+.game-center {
+text-align: center;
+}
+
+.start-button {
+padding: 12px 30px;
+background: linear-gradient(90deg, #00c6ff, #0072ff);
+border: none;
+border-radius: 25px;
+font-size: 18px;
+color: white;
+cursor: pointer;
+margin-bottom: 20px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+}
+
+.start-button:hover {
+transform: scale(1.05);
+background: linear-gradient(90deg, #0072ff, #00c6ff);
+}
+
+.scoreboard {
+font-size: 1.4em;
+margin-top: 10px;
+background: rgba(255,255,255,0.1);
+padding: 10px 20px;
+border-radius: 10px;
+}
+.bet-select {
+padding: 10px 20px;
+border-radius: 8px;
+font-size: 16px;
+margin-bottom: 20px;
+border: none;
+outline: none;
+background: #ffffff;
+color: #000;
+font-weight: bold;
+box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+.coins {
+font-size: 18px;
+margin-top: 5px;
+color: gold;
+font-weight: bold;
+}
+
+
+
