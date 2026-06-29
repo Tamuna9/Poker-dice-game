@@ -33,12 +33,12 @@ let player2Dice = [1, 1, 1, 1, 1];
 
 //Dice images
 const DICE_IMAGES = [
-"/images/1.webp",
-"/images/2.png",
-"/images/3.jpg",
-"/images/4.jpg",
-"/images/5.jpg",
-"/images/6.jpg"
+"/images/11.png",
+"/images/22.png",
+"/images/33.png",
+"/images/44.png",
+"/images/55.png",
+"/images/66.png"
 ];
 
 
