@@ -1,4 +1,11 @@
 A full-stack web application that simulates a two-player Poker Dice game with betting functionality.
+
+## Live Demo
+
+[Play Poker Dice online](https://poker-dice-game-tamuna9.onrender.com/)
+
+> The free demo server may take up to 50 seconds to wake up after a period of inactivity.
+
 The project demonstrates backend–frontend integration using Spring Boot and JavaScript, including RESTful communication and game logic implementation.
 ---
 ## 📌 Project Overview
