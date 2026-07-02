@@ -4,5 +4,5 @@ services:
     runtime: docker
     plan: free
     region: frankfurt
-    healthCheckPath: /
+    healthCheckPath: /api/roll
     autoDeployTrigger: commit
